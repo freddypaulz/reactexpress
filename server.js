@@ -19,5 +19,5 @@ app.get('/api/customers', (req, res, next) => {
 const PORT = 5000;
 
 app.listen(PORT, () => {
-   console.log('App listening on port 5000!');
+   console.log(`App listening on port ${PORT}!`);
 });
