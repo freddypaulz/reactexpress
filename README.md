@@ -1,1 +1,1 @@
-Hello world sample with react and express
+react and express boilerplate code
