@@ -5,7 +5,7 @@ const app = express();
 const path = require('path');
 app.use(express.static(path.join(__dirname, 'administrator/build')));
 
-https: app.get('/api/customers', (req, res, next) => {
+app.get('/api/customers', (req, res, next) => {
    let customers = [
       {
          success: true,
